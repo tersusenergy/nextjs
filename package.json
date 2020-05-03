@@ -5,11 +5,15 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
+    "bootstrap": "^4.4.1",
     "clsx": "latest",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-fade-in": "^1.0.0",
+    "react-loading": "^2.0.3",
+    "react-lottie": "^1.2.3"
   },
   "scripts": {
     "dev": "next",
