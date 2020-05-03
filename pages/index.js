@@ -9,7 +9,7 @@ import Grid from '../src/Grid.js';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="lg">
       <Box my={4}>
         <Grid />
         <Typography variant="h4" component="h1" gutterBottom>
