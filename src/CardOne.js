@@ -11,7 +11,7 @@ import Logo from './tersusenergy.svg';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    //maxWidth: 500,
     margin: 'auto',
   },
 });

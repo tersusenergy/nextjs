@@ -20,7 +20,7 @@ import Link from './Link';
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: 'auto',
-    maxWidth: 500,
+    //maxWidth: 500,
     background: '#ffffff',
   },
   media: {
