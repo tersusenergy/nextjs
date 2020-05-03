@@ -15,13 +15,13 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Link from './Link';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: 'auto',
     maxWidth: 500,
-    background: '#ffffff'
-    
+    background: '#ffffff',
   },
   media: {
     height: 0,
@@ -76,6 +76,9 @@ export default function RecipeReviewCard() {
           This impressive paella is a perfect party dish and a fun meal to cook together with your
           guests. Add 1 cup of frozen peas along with the mussels, if you like.
         </Typography>
+        <Link href="/about" color="secondary">
+          Go to the about page
+        </Link>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
